@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     RadioButton radioList, radioPaczka, radioPocztowka;
     ImageView imageView;
     TextView textCena;
-    EditText editKod;
+    EditText editUlica, editKod, editMiasto;
     Button btnSprawdz, btnZatwierdz;
 
     @Override
@@ -29,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
         radioPocztowka = findViewById(R.id.radioPocztowka);
         imageView = findViewById(R.id.imageView);
         textCena = findViewById(R.id.textCena);
+        editUlica = findViewById(R.id.editUlica);
         editKod = findViewById(R.id.editKod);
+        editMiasto = findViewById(R.id.editMiasto);
         btnSprawdz = findViewById(R.id.buttonSprawdz);
         btnZatwierdz = findViewById(R.id.buttonZatwierdz);
 
